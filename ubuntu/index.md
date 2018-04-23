@@ -1,7 +1,7 @@
 # Octet Nest Linux Package Repository
 This is the Octet Nest Linux Package Repository. To add this repository to your computer, simply run the following command :
 
-``echo deb https://octetnest.github.io/ubuntu xenial/ >> /etc/apt/sources.list.d/octetnest.list && apt-get update`` 
+``echo "deb https://octetnest.github.io/ubuntu xenial/" |sudo tee --append /etc/apt/sources.list.d/octetnest.list && sudo apt-get update`` 
 
 # Packages
 

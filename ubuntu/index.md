@@ -8,6 +8,8 @@ This is the Octet Nest Linux Package Repository. To add this repository to your 
 ### openconnectutils (ubuntu 16.04)
 This package makes it easy for you to connect to a Cisco VPN withouth the hassle of using browser plugins or the proprietary Linux VPN client offered by Cisco. The package installs the required packages necessary to establish a VPN connection through the Ubuntu Network Manager.
 
+Note! This page is not signed, and Ubuntu may complain about that. If you have trouble installing the package via ``apt-get`` then download https://github.com/octetnest/octetnest.github.io/blob/master/ubuntu/xenial/openconnectutils.deb to your own machine and install it with ``dpkg -i openconnectutils.deb``.
+
   - Run ``apt-get install -f openconnectutils``
   - At the top right corner on your computer, click on the **Network Manager** > **Edit Connections...**
   - A new dialog appears, click on **Add**
